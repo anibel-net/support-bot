@@ -5,5 +5,3 @@ services:
     restart: unless-stopped
     volumes:
       - ../files:/bot/config
-    ports:
-      - "8080:8080"
